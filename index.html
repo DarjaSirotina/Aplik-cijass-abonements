@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmēšanas darbs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="kaste">
+        <h1>Abonementa aprēķins</h1>
+        
+        <p>Ievadiet datus, lai redzētu cenu:</p>
+
+        <label>Sākuma datums:</label><br>
+        <input type="date" id="datums"><br><br>
+
+        <label>Izvēlies plānu:</label><br>
+        <select id="plans">
+            <option value="">-- Izvēlies --</option>
+            <option value="10">Mēnesis (10€)</option>
+            <option value="96">Gads (96€)</option>
+        </select><br><br>
+
+        <button id="poga">Aprēķināt</button>
+
+        <div id="rezultats"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

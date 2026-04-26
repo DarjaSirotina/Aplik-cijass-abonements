@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.kaste {
+    background-color: white;
+    width: 320px;
+    margin: 80px auto;
+    padding: 25px;
+    border: 3px solid #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#rezultats {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
